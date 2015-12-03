@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time", "Time\Time.csproj", "{8F0D50F0-88B6-49F1-B003-54FC3D257617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pair", "Pair\Pair.csproj", "{303E9143-080D-4990-B757-10DBCC2765D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fractions", "Fractions\Fractions.csproj", "{7CB20247-404B-4EEF-9E6E-032497DC6674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryFigures", "GeometryFigures\GeometryFigures.csproj", "{FA625642-AB24-4626-9A93-690DAA9F1D2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F0D50F0-88B6-49F1-B003-54FC3D257617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0D50F0-88B6-49F1-B003-54FC3D257617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0D50F0-88B6-49F1-B003-54FC3D257617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0D50F0-88B6-49F1-B003-54FC3D257617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303E9143-080D-4990-B757-10DBCC2765D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303E9143-080D-4990-B757-10DBCC2765D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303E9143-080D-4990-B757-10DBCC2765D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303E9143-080D-4990-B757-10DBCC2765D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB20247-404B-4EEF-9E6E-032497DC6674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB20247-404B-4EEF-9E6E-032497DC6674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB20247-404B-4EEF-9E6E-032497DC6674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB20247-404B-4EEF-9E6E-032497DC6674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA625642-AB24-4626-9A93-690DAA9F1D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA625642-AB24-4626-9A93-690DAA9F1D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA625642-AB24-4626-9A93-690DAA9F1D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA625642-AB24-4626-9A93-690DAA9F1D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
