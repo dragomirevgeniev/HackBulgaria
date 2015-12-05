@@ -41,14 +41,14 @@ namespace Pair
             else return false;
         }
 
-        public static bool operator ==(Pair firstPair, Pair secondPair)
+        public static bool operator==(Pair firstPair, Pair secondPair)
         {
-            return firstPair.Equals(secondPair);
+            return object.Equals(firstPair, secondPair);
         }
 
         public static bool operator!=(Pair firstPair, Pair secondPair)
         {
-            return !firstPair.Equals(secondPair);
+            return !object.Equals(firstPair, secondPair);
         }
 
         public override string ToString()

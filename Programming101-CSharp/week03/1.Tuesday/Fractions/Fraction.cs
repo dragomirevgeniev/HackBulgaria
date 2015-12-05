@@ -71,12 +71,12 @@ namespace Fractions
 
         public static bool operator==(Fraction frac1, Fraction frac2)
         {
-            return frac1.Equals(frac2);
+            return object.Equals(frac1, frac2);
         }
 
         public static bool operator!=(Fraction frac1, Fraction frac2)
         {
-            return !frac1.Equals(frac2);
+            return !object.Equals(frac1, frac2);
         }
 
         public override int GetHashCode()
@@ -163,18 +163,12 @@ namespace Fractions
 
         public static Fraction operator*(Fraction frac1, Fraction frac2)
         {
-            int numerator = frac1.numerator * frac2.numerator;
-            int denominator = frac1.denominator * frac2.denominator;
-
-            return new Fraction(numerator, denominator).Simplify();
+            return new Fraction(frac1.numerator * frac2.numerator, frac1.denominator * frac2.denominator).Simplify();
         }
 
         public static Fraction operator/(Fraction frac1, Fraction frac2)
         {
-            int numerator = frac1.numerator * frac2.denominator;
-            int denominator = frac1.denominator * frac2.numerator;
-
-            return new Fraction(numerator, denominator).Simplify();
+            return new Fraction(frac1.numerator * frac2.denominator, frac1.denominator * frac2.numerator).Simplify();
         }
 
         public static double operator+(Fraction frac, double number)

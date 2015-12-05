@@ -15,6 +15,7 @@ namespace GeometryFigures
             {
                 return coords[index];
             }
+
             set
             {
                 coords[index] = value;
@@ -80,22 +81,22 @@ namespace GeometryFigures
 
         public static bool operator==(Vector v1, Vector v2)
         {
-            return v1.Equals(v2);
+            return object.Equals(v1, v2);
         }
 
         public static bool operator!=(Vector v1, Vector v2)
         {
-            return !v1.Equals(v2);
+            return !object.Equals(v1, v2);
         }
 
         public override int GetHashCode()
         {
             unchecked
             {
-                int hash = 9;
+                int hash = 7;
                 foreach (var coord in coords)
                 {
-                    hash = hash * 5 + coord.GetHashCode();
+                    hash = hash * 13 + coord.GetHashCode();
                 }
 
                 return hash;

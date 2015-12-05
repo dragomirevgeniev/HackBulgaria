@@ -60,7 +60,7 @@ namespace GeometryFigures
 
         public static bool operator!=(Point p1, Point p2)
         {
-            return !p1.Equals(p2);
+            return !object.Equals(p1, p2);
         }
 
         public override int GetHashCode()
